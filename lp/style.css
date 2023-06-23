@@ -1,7 +1,10 @@
 /* common */
 .container {
-    width: 960px;
+    width: 960px !important;
     padding: 0 4%;
+}
+ul {
+    list-style: none;
 }
 /* mv */
 #mainvisual img {
