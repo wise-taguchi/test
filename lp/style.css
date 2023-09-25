@@ -13,9 +13,17 @@ ul {
 }
 
 /* works */
+.works_list {
+    padding: 0;
+}
 .works_list li {
     width: 30%;
 }
+.works_list li img {
+	width: 100%;
+}
+
+/* news */
 #news dd {
     width: 80%;
 }
@@ -31,13 +39,31 @@ ul {
     border-bottom: solid 1px #c8c8c8;
 }
 
-
+/* contact */
 #contact dt {
-    width: 10%;
+    width: 15%;
 }
 #contact dl {
-    width: 90%;
+    width: 85%;
 }
 #contact dl input,#contact dl textarea {
 	width: 100%;
+}
+#contact dl textarea {
+    height: 150px;
+}
+
+.button input {
+    width: 200px;
+    padding: 1rem;
+    background: #24292e;
+    color: #fff;
+}
+
+/* footer */
+footer {
+    background: #3a3a3a;
+    color: #fff;
+    padding: .5rem;
+    margin-top: 180px;
 }
