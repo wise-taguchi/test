@@ -32,9 +32,10 @@ nav a {
 /* works */
 .works_list {
     padding: 0;
+	row-gap: 24px;
 }
 .works_list li {
-    width: 30%;
+    width: 31%;
 }
 .works_list li img {
 	width: 100%;
