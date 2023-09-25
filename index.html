@@ -2,118 +2,83 @@
 <html>
 
 <head><!-- 裏設定エリアの開始 -->
-	<meta charset="utf-8"><!-- 文字化け防止 -->
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link href="./style.css" rel="stylesheet">
-	<!-- CSS only -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	<!-- JavaScript Bundle with Popper -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-		crossorigin="anonymous"></script>
+    <meta charset="utf-8"><!-- 文字化け防止 -->
+    <link href="./style.css" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </head><!-- 裏設定エリアの終了 -->
 
 <body><!-- 画面に表示されるエリアの開始 -->
 
-	<header>
-		<div class="container">
-			<div class="d-flex justify-content-between align-items-center gap-3">
-				<div>
-					<h1>
-						<img src="img/logo.svg" alt="Profile">
-					</h1>
-				</div>
-				<nav>
-					<ul class="d-flex justify-content-end">
-						<a href="#about">About</a>
-						<a href="#works">Works</a>
-						<a href="#news">News</a>
-						<a href="#contact">Contact</a>
-						<a href=""><img src="img/icon-instagram.png" alt="Instagram" width="20px"></a>
-					</ul>
-				</nav>
-			</div>
-		</div>
-	</header>
+    <header>
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center gap-3">
+                <div>
+                    <h1>
+                        <img src="img/logo.svg" alt="Profile" width="150px">
+                    </h1>
+                </div>
+                <nav>
+                    <a href="#about">About</a>
+                    <a href="#bicycle">Bicycle</a>
+                </nav>
+            </div>
+        </div>
+    </header>
 
-	<main>
-		<div id="mainvisual">
-			<picture>
-				<img src="img/mainvisual.jpg" alt="" width="100%">
-			</picture>
-		</div>
-		<section id="about">
-			<div class="container">
-				<h2 class="text-center mt-5 mb-5">About</h2>
-				<p class="mb-4">Xxxxx Ashley</p>
-				<ul class="mb-4">
-					<li>2th Floor xxxxx Building x-x-x Nishiazabu, Minato-ku, Tokyo 106-0031 Japan</li>
-					<li>tel: 000-0000-0000</li>
-					<li>url: www.xxxxxx.jp</li>
-					<li>mail: xxx@xxxxxx.jp</li>
-				</ul>
-				<p>
-					プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
-				</p>
-			</div>
-		</section>
-		<section id="works">
-			<div class="container">
-				<h2 class="text-center mt-5 mb-5">Works</h2>
-				<ul class="works_list d-flex flex-wrap justify-content-between">
-					<li><img src="img/works1.jpg" alt=""></li>
-					<li><img src="img/works2.jpg" alt=""></li>
-					<li><img src="img/works3.jpg" alt=""></li>
-					<li><img src="img/works4.jpg" alt=""></li>
-					<li><img src="img/works5.jpg" alt=""></li>
-					<li><img src="img/works6.jpg" alt=""></li>
-				</ul>
-			</div>
-		</section>
-		<section id="news">
-			<div class="container">
-				<h2 class="text-center mt-5 mb-5">News</h2>
-				<article>
-					<dl class="d-flex flex-wrap">
-						<dt>2020.XX.XX</dt>
-						<dd>デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。</dd>
-						<dt>2020.XX.XX</dt>
-						<dd>ＸＸ月ＸＸ日から写真集「ＸＸＸＸＸＸＸ」の販売を開始します。</dd>
-						<dt>2020.XX.XX</dt>
-						<dd>【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
-						<dt>2020.XX.XX</dt>
-						<dd>デザイン雑誌「ＸＸＸＸＸＸ Vol.10』に掲載していただきました。</dd>
-						<dt>2020.XX.XX</dt>
-						<dd>【個展開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
-					</dl>
-				</article>
-			</div>
-		</section>
-		<section id="contact">
-			<div class="container">
-				<h2 class="text-center mt-5 mb-5">Contact</h2>
-				<form>
-					<dl class="d-flex flex-wrap">
-						<dt><label for="name">NAME</label></dt>
-						<dl><input type="text" id="name" name="your-name"></dl>
-						<dt><label for="email">E-mail</label></dt>
-						<dl><input type="email" id="email" name="your-email"></dl>
-						<dt><label for="message">MESSAGE</label></dt>
-						<dl>
-							<textarea id="message" name="your-message"></textarea>
-						</dl>
-					</dl>
-					<div class="button"><input type="submit" value="送信"></div>
-				</form>
-			</div>
-		</section>
-	</main>
-	<footer>
-		<div class="container text-center">
-			<small>© 2020 My Work</small>
-		</div>
-	</footer>
+    <main>
+        <div id="mainvisual">
+            <img src="img/mainvisual.jpg" alt="" width="100%">
+        </div>
+        <section id="about">
+            <div class="container">
+                <h2 class="mt-5 text-center border-bottom">About</h2>
+                <div class="mt-5 d-flex justify-content-center gap-5">
+                    <img src="img/about.jpg" alt="" class="rounded-circle" width="100px" height="100px">
+                    <div>
+                        <h3>KAKERU MIYAICHI</h3>
+                        <p>
+                            テキストテキストテキストテキストテキストテキストテキスト<br>
+                            テキストテキストテキストテキストテキストテキストテキスト<br>
+                            テキストテキストテキストテキストテキストテキストテキスト
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="bicycle">
+            <div class="container">
+                <h2 class="mt-5 text-center border-bottom">Bicycle</h2>
+                <div class="mt-5 d-flex gap-3">
+                    <div class="col-md-4 text-center">
+                        <img src="img/bicycle1.jpg" alt="" width="100%">
+                        <h4>タイトルタイトル</h4>
+                        <p>テキストテキストテキスト</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img src="img/bicycle2.jpg" alt="" width="100%">
+                        <h4>タイトルタイトル</h4>
+                        <p>テキストテキストテキスト</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img src="img/bicycle3.jpg" alt="" width="100%">
+                        <h4>タイトルタイトル</h4>
+                        <p>テキストテキストテキスト</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container text-center mt-5">
+            <small>© 2020 Profile</small>
+        </div>
+    </footer>
 </body><!-- 画面に表示されるエリアの終了 -->
 
 </html>
