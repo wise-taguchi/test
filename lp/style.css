@@ -13,8 +13,31 @@ ul {
 }
 
 /* works */
-.works_list {
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 0;
+.works_list li {
+    width: 30%;
+}
+#news dd {
+    width: 80%;
+}
+#news dt {
+    width: 20%;
+}
+#news dd, #news dt {
+    border-top: solid 1px #c8c8c8;
+    padding: 1rem;
+    margin: 0;
+}
+#news dt:last-of-type, #news dd:last-of-type {
+    border-bottom: solid 1px #c8c8c8;
+}
+
+
+#contact dt {
+    width: 10%;
+}
+#contact dl {
+    width: 90%;
+}
+#contact dl input,#contact dl textarea {
+	width: 100%;
 }
