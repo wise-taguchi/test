@@ -6,6 +6,23 @@
 ul {
     list-style: none;
 }
+h2 {
+	margin-top: 104px;
+}
+
+/* header */
+header {
+    padding: 125px;
+}
+nav ul {
+    gap: 1.5rem;
+}
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+
 /* mv */
 #mainvisual img {
     height: 420px;
