@@ -1,13 +1,15 @@
 /* common */
-/* .container {
-    max-width: 960px !important;
-    padding: 0 4%;
-} */
 ul {
     list-style: none;
 }
 h2 {
 	margin-top: 104px !important;
+}
+@media only screen and (min-width: 960px) {
+	.container {
+    	max-width: 960px !important;
+    	padding: 0 4%;
+	}
 }
 
 /* header */
@@ -62,12 +64,14 @@ h1 {
 
 /* news */
 #news dt {
+	padding-top: 8px;
 	border-top: solid 1px #c8c8c8;
 }
 #news dd, #news dt {
 	width: 100%;
 }
 #news dd:last-of-type {
+	padding-bottom: 8px;
 	border-bottom: solid 1px #c8c8c8;
 }
 @media only screen and (min-width: 768px) {
