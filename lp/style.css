@@ -24,7 +24,7 @@ nav a {
 h1 {
 	text-align: center;
 }
-@media only screen and (min-width: 1023px) {
+@media only screen and (min-width: 768px) {
 	header {
 		padding: 125px;
 	}
@@ -40,7 +40,7 @@ h1 {
 #about ul {
 	padding-left: 0;
 }
-@media only screen and (min-width: 1023px) {
+@media only screen and (min-width: 768px) {
 
 }
 
@@ -52,7 +52,7 @@ h1 {
 .works_list li img {
 	width: 100%;
 }
-@media only screen and (min-width: 1023px) {
+@media only screen and (min-width: 768px) {
 	.works_list li {
 		width: 31%;
 	}	
@@ -68,7 +68,7 @@ h1 {
 #news dd:last-of-type {
 	border-bottom: solid 1px #c8c8c8;
 }
-@media only screen and (min-width: 1023px) {
+@media only screen and (min-width: 768px) {
 	#news dd {
     	width: 80%;
 	}
@@ -99,7 +99,7 @@ h1 {
     background: #24292e;
     color: #fff;
 }
-@media only screen and (min-width: 1023px) {
+@media only screen and (min-width: 768px) {
 	#contact dt {
 		width: 15%;
 	}
