@@ -56,13 +56,11 @@ nav a {
 }
 
 /* news */
-#news dd {
+#news dt {
 	border-top: solid 1px #c8c8c8;
 }
 #news dd, #news dt {
 	width: 100%;
-    padding: 1rem;
-    margin: 0;
 }
 #news dd:last-of-type {
 	border-bottom: solid 1px #c8c8c8;
@@ -75,6 +73,8 @@ nav a {
 		width: 20%;
 	}
 	#news dd, #news dt {
+		padding: 1rem;
+    	margin: 0;
 		border-top: solid 1px #c8c8c8;
 	}
 	#news dt:last-of-type, #news dd:last-of-type {
